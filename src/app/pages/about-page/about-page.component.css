@@ -1,0 +1,13 @@
+.allAbout{
+  /*position: relative;*/
+  /*top: 100px;*/
+}
+section {
+  padding: 150px 0;
+}
+.backIcon{
+  position: relative;
+  top: 50px;
+  height: 25px;
+  cursor: pointer;
+}

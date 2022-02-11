@@ -1,0 +1,13 @@
+.backIcon{
+  position: relative;
+  top: 50px;
+  height: 25px;
+  cursor: pointer;
+}
+.allContact{
+  position: relative;
+  top: 100px;
+}
+a{
+  color: black;
+}

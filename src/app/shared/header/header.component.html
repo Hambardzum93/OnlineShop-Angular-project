@@ -1,0 +1,64 @@
+
+<div class="container-fluid wrapper" >
+  <div class="row">
+    <div class="col-sm-2">
+          <div class="row" >
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3" routerLink="/">
+                  <img src="../../../assets/images/logo/logo2.png" class="logo" alt="Reloj" >
+                </div>
+                <div class="col-sm-6" routerLink="/">
+                  <h2 >RELOJ</h2>
+                </div>
+          </div>
+    </div>
+
+    <div class="col-sm-6">
+      <div class="row">
+
+          <ul>
+
+
+            <li><a routerLinkActive="active" routerLink="/" [routerLinkActiveOptions]="{exact: true}">Home</a></li>
+
+
+            <li><a routerLinkActive="active" routerLink="/brands">Brands</a></li>
+
+
+            <li><a routerLinkActive="active" routerLink="/jewellery">Jewellery</a></li>
+
+
+            <li><a routerLinkActive="active" routerLink="/contact">Contact</a></li>
+
+
+            <li><a routerLinkActive="active" routerLink="/about">About</a></li>
+
+
+            <li><a  routerLink="/login">Log In</a></li>
+
+            <li><a  (click)="foo()">Log Out</a></li>
+
+          </ul>
+
+      </div>
+
+<!--      <button class="btn btn-secondary" (click)="logout()" *ngIf="flag()">LOGOUT</button>-->
+
+    </div>
+
+    <div class="col-sm-3" >
+            <form action="#" role="search" class="inp">
+              <div class="input-group input">
+                <input type="text"  name="query" class="form-control" placeholder="What to find?" value="">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-dark" routerLink="/search">Search</button>
+
+                </span>
+              </div>
+            </form>
+    </div>
+    <div class="col-sm-1"></div>
+
+
+  </div>
+</div>

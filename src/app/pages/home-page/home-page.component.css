@@ -1,0 +1,33 @@
+
+.categoriesImages{
+  height: 150px;
+}
+.categories{
+  margin-top: 50px;
+}
+
+.newsCategories{
+  margin-top: 100px;
+}
+.newsText:hover{
+  /*background-color: #F0F0F0;*/
+  /*color: #002F80;*/
+  font-size: 20px;
+  font-weight: bold;
+}
+/*map start*/
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-container iframe{
+  left:0;
+  top: 0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+/*map end*/

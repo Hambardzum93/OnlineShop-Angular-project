@@ -1,0 +1,23 @@
+.container{
+  position: relative;
+  top: 100px;
+}
+.block {
+  padding-bottom: 25px;
+  margin-top: 25px;
+}
+
+.block:hover {
+  box-shadow: 0px 0px 10px gray;
+}
+button{
+  margin-top: 25px;
+}
+.images{
+  height: 300px;
+}
+
+.backIcon{
+  height: 25px;
+  cursor: pointer;
+}

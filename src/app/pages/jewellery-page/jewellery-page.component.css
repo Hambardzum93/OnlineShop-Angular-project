@@ -1,0 +1,21 @@
+.wrapper{
+  position: relative;
+  top: 100px;
+}
+.cart{
+  text-align: center;
+  margin-left: 10px;
+  width: 250px;
+}
+.categoriesImages{
+  height: 150px;
+}
+.backIcon{
+  height: 25px;
+  cursor: pointer;
+}
+p{
+  margin-top: 15px;
+  font-size: 18px;
+
+}

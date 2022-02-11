@@ -1,0 +1,8 @@
+.images{
+  width: 255px;
+  height: 400px;
+  margin: 0 auto;
+}
+.block:hover {
+  box-shadow: 0px 0px 10px gray;
+}

@@ -1,0 +1,51 @@
+
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="../../../assets/images/icons/back.ico" routerLink="/brands" class="backIcon">
+    </div>
+    <div class="col-sm-10"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-8">
+
+      <div class="row">
+        <div class="col-sm-3 block text-center" *ngFor="let item of longines">
+          <img src="{{item.url}}" alt="Longines" class="img-fluid images">
+          <h5>{{item.model}}</h5>
+          <h6>{{item.price}}$</h6>
+          <button class="btn btn-dark"
+                  [routerLink]="['/longines', item.id]"
+                  [queryParams]="{model: item.model, price: item.price, url: item.url, titile: item.titile}"
+                  (click)="foo()"
+          >Details</button>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-sm-4" *ngIf="flag else stok">
+      <router-outlet></router-outlet>
+    </div>
+    <!--...................................................................................................-->
+    <ng-template #stok>
+      <div class="simple">
+        <div class="card" style="width: 18rem;">
+          <h2 class="card-title">RELOJ</h2>
+          <h6>Watch and Jewelry Online Store</h6>
+          <img class="card-img-top simplePhoto" src="../../../assets/images/logo/logo2.png" alt="Simple Photo">
+          <div class="card-body">
+            <p class="card-text">Only here you can find all the best watches and jewelry. As well as the latest samples from the most famous brands.</p>
+            <p class="card-text"> We have all the samples updated every day.</p>
+            <p class="card-text">Come to the stores of our retail network and make purchases with comfort: our consultants are real experts in their field and will always help to make a choice. </p>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+    <!--................................................................................................................-->
+
+  </div>
+
+</div>

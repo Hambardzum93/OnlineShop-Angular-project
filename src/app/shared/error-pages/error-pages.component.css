@@ -1,0 +1,25 @@
+
+.container{
+  position: relative;
+  top: 80px;
+  text-align: center;
+}
+.error{
+  background-color: #FDFDFD;
+
+}
+h2{
+  font-size: 64px;
+  color: #828282;
+  opacity: 0.5;
+}
+p{
+  color: #5A5A5A;
+  opacity: 0.8;
+}
+button{
+  margin-top: 35px;
+  border-radius: 20px;
+  background-color: #5A5A5A;
+}
+

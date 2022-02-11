@@ -1,0 +1,60 @@
+.wrapper{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+ul {
+  list-style-type: none;
+
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 23px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+  border-radius: 20px;
+  color: #397DA0;
+}
+li a:hover{
+   background-color: #111;
+   color: #397DA0;
+ }
+.active {
+  background-color: black;
+  border-radius: 20px;
+}
+.logo{
+  height: 50px;
+  cursor: pointer;
+}
+h2{
+  margin-top: 7px;
+  color: white;
+  text-decoration: gray;
+  /*font-family: "Rockwell Extra Bold";*/
+}
+
+h2:hover{
+  color: #397DA0;
+  cursor: pointer;
+}
+.inp{
+margin-top: 7px;
+}
+.menu a{
+
+  text-align: center;
+}
+

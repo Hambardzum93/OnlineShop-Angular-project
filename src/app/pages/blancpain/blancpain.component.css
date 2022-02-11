@@ -1,0 +1,38 @@
+.container{
+  position: relative;
+  top: 100px;
+}
+.block {
+  padding-bottom: 25px;
+  margin-top: 25px;
+}
+
+.block:hover {
+  box-shadow: 0px 0px 10px gray;
+}
+button{
+  margin-top: 25px;
+}
+.images{
+  height: 200px;
+}
+.backIcon{
+  height: 25px;
+  cursor: pointer;
+}
+.simple{
+  margin-left: 25px;
+  text-align: center;
+}
+.simple:hover{
+  box-shadow: 0px 0px 10px gray;
+}
+.simplePhoto{
+  margin-top: 25px;
+  height: 300px;
+}
+.simple h2, h6{
+  font-weight: bold;
+  color: black;
+  opacity: 0.7;
+}
